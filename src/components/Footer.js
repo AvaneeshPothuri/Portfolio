@@ -9,7 +9,12 @@ const Footer = () => {
     <div className="footer">
         <div className="footer-container">
             <div className="left">
-                <div className="phone">
+            <h4>About Me</h4>
+                <p>I'm Avaneesh Pothuri, an undergraduate BE Electronics and Communications Engineering student at BITS Pilani, Hyderabad campus. I'm a Front-end Web Developer.</p>
+                
+            </div>
+            <div className="right">
+            <div className="phone">
                     <h4>
                         <FaPhone size={20} style={{color:"#fff", marginRight:"2rem"}}/>
                          +91    86394   02984
@@ -51,13 +56,8 @@ const Footer = () => {
                     </Link>
                 </div>
             </div>
-            <div className="right">
-                <h4>About Me</h4>
-                <p>I'm Avaneesh Pothuri, an undergraduate BE Electronics and Communications Engineering student at BITS Pilani, Hyderabad campus. I'm a Front-end Web Developer.</p>
-                
             </div>
         </div>
-    </div>
   )
 }
 
