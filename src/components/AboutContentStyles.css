@@ -24,11 +24,16 @@
 }
 
 .right .img-container {
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     position: relative;
     align-items: center;
     text-align: center;
+}
+
+.right .img-container img{
+    max-width: 700%;
 }
 
 .left .btn {
